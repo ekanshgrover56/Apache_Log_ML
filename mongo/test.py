@@ -21,7 +21,7 @@ pipeline = [
 ]
 
 master = {}
-dbconnector = Mongo_Grabber(master,'capstone2','123456','169.45.94.131','32156')
+dbconnector = Mongo_Grabber(Mongo ACCOUNT)
 #dbconnector.mongo_authenticated('http_bank')
 #print(dbconnector.mongo_authenticate())
 
