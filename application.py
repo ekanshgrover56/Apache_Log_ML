@@ -2,8 +2,8 @@ from mongo.MongoGrabber import Mongo_Grabber
 from machine.MachineLearning import MachineLearning
 
 
-dbconnector = Mongo_Grabber('capstone2','123456','169.45.94.131','32156')
-Master_DF = dbconnector.get_data('http_bank')
+dbconnector = Mongo_Grabber(USERNAME, PASSWORD, SERVER_ADDR, SERVER_PORT)
+Master_DF = dbconnector.get_data(DB_NAME)
 
 print("DataFrame Created\nStarting Prceptron Model")
 
